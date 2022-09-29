@@ -10,7 +10,8 @@ When implementing a new feature or fixing a bug, please create a new pull reques
 
 ## First setup
 
-Install Docker on your machine.
+Install [Docker](https://docs.docker.com/get-docker/) on your machine.
+
 Clone this repo and run `docker-compose up`
 
 Test environment is running the backend properly by navigating to [http://localhost:3000/api/ping](http://localhost:3000/api/ping) on your web browser.
