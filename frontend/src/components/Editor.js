@@ -56,7 +56,6 @@ class Editor extends React.Component {
         tagList: this.props.tagList,
       };
 
-
       if (!item.image) {
         item.image = "./placeholder.png";
       }
