@@ -56,8 +56,9 @@ class Editor extends React.Component {
         tagList: this.props.tagList,
       };
 
+
       if (!item.image) {
-        item.image = "./placeholder.png"
+        item.image = "./placeholder.png";
       }
 
       const slug = { slug: this.props.itemSlug };
